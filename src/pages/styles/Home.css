@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.productsList {
+    cursor: pointer;
+}
+.productsList button {
+    cursor: pointer;
+}
+.btn {
+    text-decoration: none;
+    color: black;
+}
+
+.imageBlock {
+    overflow: hidden;
+    width: 400px;
+    height: 600px;
+}
+
+.productsImg {
+    width: 420px;
+    transition: all ease 0.5s;
+}
+
+.productsList:hover .productsImg {
+    width: 450px;
+}
